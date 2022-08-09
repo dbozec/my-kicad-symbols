@@ -15,6 +15,9 @@
     (property "ki_keywords" "mikroBUS" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "*mikroBUS*" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "mikroBUS_0_1"
       (rectangle (start -6.35 11.43) (end 6.35 -10.16)
         (stroke (width 0) (type default) (color 0 0 0 0))
