@@ -193,7 +193,7 @@
     (property "ki_description" "PCIe x8 connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x16*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x16_0_1"
@@ -868,7 +868,7 @@
     (property "Value" "PCIe_x16_Goldfinger" (id 1) (at -7.62 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at -2.54 15.24 0)
+    (property "Footprint" "Connector_PCIe_Perso:PCIe_x16_GoldFinger" (id 2) (at -2.54 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -2.54 15.24 0)
@@ -880,7 +880,7 @@
     (property "ki_description" "PCIe x8 Goldfinger" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x16*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x16_Goldfinger_0_1"
@@ -1742,7 +1742,7 @@
     (property "ki_description" "PCIe x4 connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x4*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x4_0_1"
@@ -2029,7 +2029,7 @@
     (property "ki_description" "PCIe x4 Goldfinger" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x4*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x4_Goldfinger_0_1"
@@ -2316,7 +2316,7 @@
     (property "ki_description" "PCIe x8 connector" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x8*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x8_0_1"
@@ -2739,7 +2739,7 @@
     (property "ki_description" "PCIe x8 Goldfinger" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PCIe_x1*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "PCIe_x8*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "PCIe_x8_Goldfinger_0_1"
