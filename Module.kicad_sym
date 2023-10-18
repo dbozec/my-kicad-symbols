@@ -34,7 +34,7 @@
         (name "~{RESET}" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -19.0065 13.5177 0) (length 5.08)
+      (pin bidirectional line (at -19.05 13.97 0) (length 5.08)
         (name "TMSC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
