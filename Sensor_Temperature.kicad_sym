@@ -922,7 +922,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 14.986 0)
+			(at 9.144 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,15 +930,15 @@
 			)
 		)
 		(property "Value" "MCP9604"
-			(at 5.588 -17.78 0)
+			(at 8.382 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_5x5mm_P0.65mm_EP3.25x3.25mm_ThermalVias"
-			(at 0 0 0)
+		(property "Footprint" "Packages:VFLGA-24_5x5_P0.65mm"
+			(at -0.254 -30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/MCP960X-Data-Sheet-20005426.pdf"
-			(at 0.254 -28.702 0)
+			(at -0.508 -28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,8 +955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four channel thermocouple EMF to temperature converter"
-			(at 0 -26.67 0)
+		(property "Description" "Four Channel Thermocouple Conditioning IC"
+			(at 0 -26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,18 +975,18 @@
 		)
 		(symbol "MCP9604_1_1"
 			(rectangle
-				(start -10.16 13.97)
-				(end 10.16 -16.51)
+				(start -12.7 15.24)
+				(end 12.7 -16.51)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 11.43 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -995,7 +995,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1004,7 +1004,7 @@
 				)
 			)
 			(pin input clock
-				(at -12.7 8.89 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -1013,7 +1013,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1022,7 +1022,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 5.08 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "Alert_1"
 					(effects
@@ -1040,7 +1040,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 2.54 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "Alert_2"
 					(effects
@@ -1058,7 +1058,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 0 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "Alert_3"
 					(effects
@@ -1076,7 +1076,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -2.54 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "Alert_4"
 					(effects
@@ -1094,7 +1094,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -5.08 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "SC_Alert"
 					(effects
@@ -1112,7 +1112,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at -15.24 -8.89 0)
 				(length 2.54)
 				(name "OC_Alert"
 					(effects
@@ -1130,7 +1130,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -13.97 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "ADDR"
 					(effects
@@ -1148,7 +1148,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 16.51 270)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -1279,7 +1279,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 11.43 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "Vsense"
 					(effects
@@ -1288,7 +1288,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 7.62 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "Vin1+"
 					(effects
@@ -1315,7 +1315,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 5.08 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "Vin1-"
 					(effects
@@ -1333,7 +1333,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 1.27 180)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "Vin2+"
 					(effects
@@ -1351,7 +1351,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -1.27 180)
+				(at 15.24 -1.27 180)
 				(length 2.54)
 				(name "Vin2-"
 					(effects
@@ -1369,7 +1369,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "Vin3+"
 					(effects
@@ -1387,7 +1387,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "Vin3-"
 					(effects
@@ -1405,7 +1405,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -11.43 180)
+				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "Vin4+"
 					(effects
@@ -1423,7 +1423,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -13.97 180)
+				(at 15.24 -13.97 180)
 				(length 2.54)
 				(name "Vin4-"
 					(effects
