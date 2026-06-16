@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_Custom:QFN56_28LD_MLF"
 			(at 1.27 0 0)
 			(effects
 				(font
@@ -31,8 +31,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.27 0 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC26601.pdf"
+			(at 0 -24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,8 +40,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 1.27 0 0)
+		(property "Description" "28V/6A Synchronous DC/DC Buck Regulator"
+			(at 0 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Buck, DC/DC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
